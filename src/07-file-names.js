@@ -20,7 +20,6 @@ function renameFiles(names) {
     for (let j = i + 1; j < change.length; j++) {
       if (change[i] === change[j]) {
         change[j] = `${change[j]}(${k})`;
-        console.log(change[i]);
         k++;
       }
     }
